@@ -6,19 +6,24 @@
 //
 
 import SwiftUI
+import CometChatSDK
 
 struct ContentView: View {
+    @EnvironmentObject private var auth: AuthViewModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if auth.currentUser != nil {
+                ConversationsListView()
+            } else {
+                LoginView()
+            }
         }
-        .padding()
+        .animation(.default, value: auth.currentUser?.uid)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(AuthViewModel())
 }
