@@ -16,9 +16,9 @@ import Foundation
 /// have your backend mint short-lived Auth Tokens via the CometChat REST API
 /// and pass them to `CometChat.login(UID:authToken:...)`.
 enum CometChatConfig {
-    static let appID: String = "167863233d5eccde9"
-    static let region: String = "in"
-    static let authKey: String = "fe136b3ac2a639fb26169d73f8c6088e34c65b56"
+    static let appID: String = ""   // TODO: Add appID Here
+    static let region: String = ""  // TODO: Add region Here
+    static let authKey: String = "" // TODO: Add authKey Here
 
     /// Pre-seeded sample UIDs that exist on every fresh CometChat app (handy
     /// while wiring things up; can be removed once real users are created).

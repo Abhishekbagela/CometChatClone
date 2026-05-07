@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ED7D63AA2FACB8CF004CBF60 /* CometChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = ED7D63A92FACB8CF004CBF60 /* CometChatSDK */; };
+		ED87B95E2FAD295300EC2C23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED87B95D2FAD295300EC2C23 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED2313362FACABAC001B6EFA /* CometChatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CometChatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED87B95D2FAD295300EC2C23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		ED23132D2FACABAC001B6EFA = {
 			isa = PBXGroup;
 			children = (
+				ED87B95D2FAD295300EC2C23 /* README.md */,
 				ED2313382FACABAC001B6EFA /* CometChatClone */,
 				ED2313372FACABAC001B6EFA /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED87B95E2FAD295300EC2C23 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
